@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+
+<input type="text" [value] = "clientName"/>
+
+<p [style.color] = "myColor">This text used style binding!</p>
+
+<p [class] = "notAppliedCSS">This line applied "Class" property.</p>
+
+<button class="button" (click)="clickMe()">Click me</button>
+<button (click)="resetClickCount()">Reset</button>
+
+<p [style.color] = "appliedCSS">You have clicked {{clickCount}} times!</p>
