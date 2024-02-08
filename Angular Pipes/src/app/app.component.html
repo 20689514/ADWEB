@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="box text-format">
+    <br>
+    <h1>Text-format Pipe</h1>  <br>
+    <hr>
+    <br>
+    <p>Hi, my name is {{name | uppercase}} </p> <br>
+    <p> From : {{section | uppercase}} </p>  <br>
+    <p> This is my {{title | uppercase}} lab activity 1</p> <br>
+
+  </div>
+
+  <div class="box date">
+    <br>
+    <h1>Date pipe </h1>
+    <br><hr><br>
+    <p>Today's date :- {{presentDate}} </p><br>
+    <p> Short date : {{presentDate | date: 'shortDate'}} </p> <br>
+    <p> Medium date : {{presentDate | date: 'mediumDate'}} </p> <br>
+  </div>
+    <!-- <h1>Date with parameters</h1>
+    <p> This will show a formatted date:  {{presentDate | date: 'M/dd/yyyy'}} </p> <br>
+    <p> This indicates the hours and minutes:  {{presentDate | date: 'h:mm'}} </p><br>
+
+    <hr>
+    <h1>Chain pipe demo</h1>
+    <p> Date with uppercase : {{presentDate | date: 'fullDate'|uppercase}} </p> <br>
+    <p> Date with lowercases : {{presentDate | date: 'medium'|lowercase}} </p> <br>
+
+    <hr>
+    <h1>Async Pipe</h1> 
+    <p>  Seconds changing in Time: {{ time$ | async | date:'mediumTime' }} </p> <br> -->
+
+  <div class="box currency">
+    <br>
+    <h1>Currency Pipe</h1> 
+    <br><hr><br>
+    <p>  {{price | currency : '': true}}</p> <br>
+    <p>  {{price | currency : 'INR'}}</p> <br>
+    <p>  {{price | currency:'EUR'}}</p> <br>
+  </div>
+
+  
+  <div class="box decimal">
+    <br>
+    <h1>Decimal Pipe</h1> 
+    <br><hr><br>
+    <p>  {{num1 |number}}</p> <br>
+    <p>  {{num2 |number}}</p> <br>
+    <p>  {{num4 |number}}</p> <br>
+  </div>
+
+  <div class="box percent">
+    <br>
+    <h1>Percent Pipe</h1> 
+    <br><hr><br>
+    <p>  My Level of proficiency in HTML is: {{num1 |percent}}</p>  <br>
+    <p>  My Level of proficiency in CSS is: {{num2 |percent}}</p>   <br>
+    <p>  My Level of proficiency in BOOSTRAP is: {{num3 |percent}}</p>  <br>
+  </div>
+
+  <div class="box slice">
+    <br>
+    <h1>Slice Pipe</h1> 
+    <br><hr><br>
+    <p>  My favorite programming languages are: {{PL | slice:2}}</p> <br>
+    <p>  My least favorite programming language is: {{PL | slice:1:2}}</p> <br>
+    <p>  What I used the most is: {{PL | slice:2:-2}}</p> <br>
+  </div>
+
+  <div class="box json">
+    <br>
+    <h1>JSON Pipes</h1>  <br>
+    <hr><br>
+    <p>{{Profile | json}}</p> <br>
+    <p>Basic level: {{BasiclevelLanguages | json}}</p> <br>
+    <p>Advanced level: {{AdvancedlevelLanguages | json}}</p> <br>
+
+  </div>
+</div>  

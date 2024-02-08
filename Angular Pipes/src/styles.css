@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(https://builtin.com/sites/www.builtin.com/files/styles/og/public/hed-new-programming-languages.jpg);
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container p{ 
+    color: #d8d6d0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1{ 
+    color: #00d7fd;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.box{
+    border: 1px solid #fff;
+    text-align: center;
+
+    margin:  auto;
+    width: 25rem;
+    height: 15rem;
+}
+
+
+.box:nth-child(7){
+    border: 1px solid #fff;
+    text-align: center;
+
+    margin: 3px auto;
+    width: 80%;
+    height: 15rem;
+
+    
+}
+
