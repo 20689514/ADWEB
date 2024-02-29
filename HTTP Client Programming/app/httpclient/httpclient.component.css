@@ -1,0 +1,33 @@
+p {
+    font-family: Lato;
+  }
+
+  table{
+    width: 100%;
+    font-size: larger;
+
+  }
+
+  thead{
+    background-color: rgb(194, 63, 63);
+  }
+  
+  table,
+  thead,
+  th,
+  td,
+  tbody {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    border-collapse:collapse ;
+  }
+  
+  td {
+    font-weight: 400;
+  }
+  
+  tbody:nth-child(odd) {
+    background-color: rgb(255, 208, 0);
+  }
+  
