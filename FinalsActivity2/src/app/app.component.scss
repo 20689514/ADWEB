@@ -1,0 +1,62 @@
+.header{
+  color: #064663;
+  background-color: #ECB365;
+  padding: 10px;
+  margin: auto;
+  width: 90%;
+}
+
+.container{
+  padding: 10px;
+  margin: auto;
+  width: 90%;
+  background-color: #04293A;
+  color: black;
+}
+
+.raised{
+  margin:10px 10px;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+.card, .result{
+  background-color: transparent;
+}
+
+.checkbox-h2{
+  color: #ECB365;
+}
+
+
+.checkbox-margin{
+  color: black;
+}
+
+
+.input-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .input-full-width {
+    width: 100%;
+  }
+
+  .snackbar-box{
+    margin: 10px;
+  }
+
+  .snackbar-box:nth-child(1){
+    width: 20rem;
+  }
+
+  .snackbar{
+    color: #FFF!important;
+  }
+
+
+
