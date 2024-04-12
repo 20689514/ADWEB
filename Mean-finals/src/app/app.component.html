@@ -1,0 +1,58 @@
+<p>Books Application - Chrisjohn Crisostomo</p>
+<!-- <div class="container">
+  <input id="newBook" placeholder="title">
+  <input id="newTitle" placeholder="title"> 
+
+  <input id="newDesc" placeholder="description">
+  <input id="newPrice" placeholder="book price">
+  <button (click)="addBook()">Add book</button>
+  <h3 *ngFor="let book of books">
+    <b>* {{book.title}}</b>
+    <b> | {{book.description}}</b>
+    <b> | {{book.price}}</b>  
+    <button (click)="deleteBook(book.id)">Delete book</button>
+  </h3>
+</div> -->
+
+<div class="container">
+  <input id="newBook" placeholder="title">
+  <input id="newDesc" placeholder="description">
+  <input id="newPrice" placeholder="book price">
+  <button (click)="addBook()">Add book</button>
+</div>
+
+    <!-- <div class="table-header">
+      <div class="header-item">Title</div>
+      <div class="header-item">Description</div>
+      <div class="header-item">Price</div>
+      <div class="header-item"></div>  For the delete button column 
+    </div>
+    <div class="table-body">
+      <div class="table-row" *ngFor="let book of books">
+        <div class="table-cell">{{book.title}}</div>
+        <div class="table-cell">{{book.description}}</div>
+        <div class="table-cell">{{book.price}}</div>
+        <div class="table-cell">
+          <button (click)="deleteBook(book.id)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <table>
+    <thead>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+        <div class="header-item"></div>
+    </thead>
+
+    <tbody *ngFor="let book of books">
+        <td>{{book.title}}</td>
+        <td>{{book.description}}</td>
+        <td>{{book.price}}</td>
+        <div class="table-cell">
+          <button (click)="deleteBook(book.id)">Delete</button>
+        </div>
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),  url('https://cardinalnewmansociety.org/wp-content/uploads/2020/04/CPL-SJH1-scaled.jpg');        
+    
+    background-position: center;
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
